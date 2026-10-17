@@ -32,3 +32,10 @@
   ],
   "exclude": ["node_modules"]
 }
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "noEmitOnError": false,
+    // ... 기존 설정들
+  }
+}
