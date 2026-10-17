@@ -369,3 +369,10 @@ export function buildMenu(
   // 하위가 하나도 없는 그룹은 통째로 숨김
   return menu.filter(m => !m.children || m.children.length > 0);
 }
+export function canWriteAt() {
+  return true;
+}
+
+export function writeKeyOf() {
+  return '';
+}
